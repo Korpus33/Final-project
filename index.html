@@ -67,10 +67,12 @@ veniam, quis nostrud exercitation.
                 WHAT WE DO
             </p>
             <h3 class="project__text_description">Our Service</h3>
-            <button class="project__button button--active" data-filter="ALL">ALL</button>
-            <button class="project__button button--active" data-filter="Interior Design">INTERIOR DESIGN</button>
-            <button class="project__button button--active" data-filter="Arhitecture">ARHITECTURE</button>
-            <button class="project__button button--active" data-filter="Planning">PLANNING</button>
+            <div class="project__buttons">
+              <button class="button project__button button--active button--green button__text--white" data-filter="ALL">ALL</button>
+              <button class="button project__button button--active button--green button__text--white" data-filter="Interior Design">INTERIOR DESIGN</button>
+              <button class="button project__button button--active button--green button__text--white" data-filter="Arhitecture">ARHITECTURE</button>
+              <button class="button project__button button--active button--green button__text--white" data-filter="Planning">PLANNING</button>
+            </div>
             <div class="project__card_" id="project-1">
                 <img src="/components/project/images/ere.svg" alt="ere">
                 <h5>Interior Design</h5>
@@ -105,5 +107,6 @@ veniam, quis nostrud exercitation.
 
     </footer>
     <script src="/components/nav/nav.js"></script>
+    <script src="/components/project/project.js"></script>
 </body>
 </html>

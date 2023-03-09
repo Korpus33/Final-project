@@ -32,4 +32,16 @@
 
 .button__corner--small {
   border-radius: 15px 0px;
+}
+
+.project__button {
+  border-radius: 20px;
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.project__button.button--active {
+  background-color: #ffffff;
+  color: #37806B;
 }/*# sourceMappingURL=button.css.map */

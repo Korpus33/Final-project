@@ -233,6 +233,18 @@ input:-webkit-autofill:active {
   border-radius: 15px 0px;
 }
 
+.project__button {
+  border-radius: 20px;
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.project__button.button--active {
+  background-color: #ffffff;
+  color: #37806B;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
