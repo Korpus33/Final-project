@@ -1,3 +1,8 @@
+.project {
+  padding: 100px 0;
+  position: relative;
+}
+
 .project__card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,4 +61,32 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.project__text_tagline {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #646464;
+}
+
+.project__text_description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 78px;
+  color: #212121;
+}
+
+.project__image_dots {
+  position: absolute;
+  top: 500px;
+  right: -130px;
+  z-index: -1;
+  opacity: 0.5;
+  height: auto;
 }/*# sourceMappingURL=project.css.map */

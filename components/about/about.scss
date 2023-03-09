@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 100px 0;
+    padding: 500px 0;
     gap: 10px;
 }
 
@@ -58,15 +58,6 @@ font-weight: 400;
 font-size: 18px;
 line-height: 30px;
 color: #646464;
-}
-
-.about__image_hidden {
-    padding: 40px;
-    background-image: url('images/main1.svg');
-    background-repeat: repeat-x;
-    background-position: center center;
-    background-size: cover;
-    width: 400px;
 }
 
 .position {

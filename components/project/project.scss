@@ -1,6 +1,12 @@
+.project {
+    padding: 100px 0 ;
+    position: relative;
+}
+
 .project__card {
     display: flex;
     gap: 20px;
+
 }
 
 .project__card_design {
@@ -38,4 +44,32 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.project__text_tagline {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.01em;
+color: #646464;
+}
+
+.project__text_description {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 78px;
+color: #212121;
+}
+
+.project__image_dots {
+    position: absolute;
+    top: 500px;
+    right: -130px;
+    z-index: -1;
+    opacity: 0.5;
+    height: auto;
 }
