@@ -1,0 +1,35 @@
+.button {
+  display: inline;
+  white-space: nowrap;
+}
+
+.button--small {
+  font-size: 0.875rem;
+  padding: 8px 16px;
+}
+
+.button--large {
+  width: 150px;
+  font-size: 1.125rem;
+  padding: 12px 24px;
+}
+
+.button--beige {
+  background-color: #CAA892;
+}
+
+.button--green {
+  background-color: #37806B;
+}
+
+.button__text--white {
+  color: #ffffff;
+}
+
+.button__corner {
+  border-radius: 20px 0px;
+}
+
+.button__corner--small {
+  border-radius: 15px 0px;
+}/*# sourceMappingURL=button.css.map */

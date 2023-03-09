@@ -1,0 +1,90 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 10px;
+}
+.nav__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav__logo-image {
+  width: auto;
+  height: auto;
+}
+
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav__menu ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+  padding: 10px;
+  border: 5px solid #ffffff;
+}
+.nav__menu ul li:hover {
+  border: 5px solid #37806B;
+  border-radius: 20px;
+}
+.nav__menu ul li:hover a {
+  color: #37806B;
+}
+.nav__menu ul li a {
+  color: rgb(0, 0, 0);
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+.nav__menu ul li a:hover {
+  color: #37806B;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 95px;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background-color: #37806B;
+  -webkit-transition: width 1.5s ease-in-out;
+  transition: width 1.5s ease-in-out;
+}/*# sourceMappingURL=nav.css.map */

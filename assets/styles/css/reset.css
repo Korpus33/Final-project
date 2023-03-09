@@ -1,0 +1,64 @@
+/* Box sizing rules */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%; /* sets the default font-size to 10px */
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* Remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove table spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset font styles */
+html {
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+/* Remove borders, outlines, and text decoration */
+a, button, input, textarea, select {
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+/* Reset button styles */
+button, input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+/* Remove background color for range inputs */
+input[type=range] {
+  background: transparent;
+}
+
+/* Remove autofill styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: inset 0 0 0px 1000px #fff;
+  -webkit-text-fill-color: inherit !important;
+}/*# sourceMappingURL=reset.css.map */

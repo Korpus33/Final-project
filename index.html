@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Final Project</title>
+    <link rel="stylesheet" href="/assets/styles/css/main.css">
+</head>
+<body>
+    <nav class="container">
+      <div class="nav">
+        <div class="nav__logo">
+          <img src="/assets/images/logo.svg" alt="Logo" class="nav__logo-image">
+        </div>
+        <div class="nav__menu">
+          <ul class="nav__menu-list">
+            <li>
+              <a href="#HOME">HOME</a>
+            </li>
+            <li>
+              <a href="#PROJECT">PROJECT</a>
+            </li>
+            <li>
+              <a href="#SERVICES">SERVICES</a>
+            </li>
+            <li>
+              <a href="#ABOUT">ABOUT</a>
+            </li>
+            <li>
+              <a href="#BLOG">BLOG</a>
+            </li>
+            <li>
+              <a href="#SHOP">SHOP</a>
+            </li>
+            <li>
+              <a href="#CONTACT">CONTACT</a>
+            </li>
+            <button class="nav__menu_button button--beige button__text--white button--small button__corner--small">Sign up</button>
+          </ul>
+        </div>
+        <div class="progress-bar"></div>
+      </div>
+    </nav>     
+    <main class="container">
+        <div class="home" id="HOME">
+            <div class="home__text">
+                <p class="home__text_tagline">
+                    MODERN INTERIOR
+                </p>
+                <h2 class="home__text_heading">
+                    Create Your Interior Design.
+                </h2>
+                <div class="home__text_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation.
+                </div>
+                <button class="home__text_button button--green button__text--white button__corner button--large">CONTACT</button>
+            </div>
+            <div class="home__image">
+                <img class="home__image-main" src="/components/home/images/main-page-image.svg" alt="image">
+                <img class="home__image-overlay" src="/components/home/images/Rectangle 27.svg" alt="img">
+            </div>
+        </div>
+        <div class="project" id="PROJECT">
+            <p class="project__text_tagline">
+                WHAT WE DO
+            </p>
+            <h3 class="project__text_description">Our Service</h3>
+            <button class="project__button button--active" data-filter="ALL">ALL</button>
+            <button class="project__button button--active" data-filter="Interior Design">INTERIOR DESIGN</button>
+            <button class="project__button button--active" data-filter="Arhitecture">ARHITECTURE</button>
+            <button class="project__button button--active" data-filter="Planning">PLANNING</button>
+            <div class="project__card_" id="project-1">
+                <img src="/components/project/images/ere.svg" alt="ere">
+                <h5>Interior Design</h5>
+                <p>Lorem ipsum dolor amet consectetur
+                    adipiscing elit sed eiusmod tempor
+                    incididunt ut labore.</p>
+            </div>
+        </div>
+        <div class="about" id="ABOUT">
+            <div class="about__image">
+                <img src="/assets/images/about-us-image.svg" alt="image">
+            </div>
+            <div class="about__text">
+                <p class="about__text_tagline">
+                    ABOUT US
+                </p>
+                <h2 class="about__text_heading">
+                    Interioris The Will
+                    of An Epoch Mextreo
+                </h2>
+                <div class="about__text_description">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form injected humour, or randomised words which don't look even slightly believable.If you are going to use a passage of Lorem Ipsum, sure there isn't anything embarrassing hidden the middleof text. All the Lorem Ipsum generators on the Internettend to repeat predefined chunks as necessary,making this the first true generator on the Internet.
+                </div>
+                <button class="about__button button--green button__text--white button__corner button--large button">Learn more</button>
+            </div>
+        </div>
+        <div class="blog" id="BLOG">
+
+        </div>
+    </main>
+    <footer class="container">
+
+    </footer>
+    <script src="/components/nav/nav.js"></script>
+</body>
+</html>

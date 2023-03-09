@@ -1,0 +1,42 @@
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 100px;
+}
+
+.home__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.home__image {
+  position: relative;
+}
+
+.home__image-main {
+  border-radius: 140px 0px;
+  display: block;
+  height: auto;
+}
+
+.home__image-overlay {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: -1;
+  opacity: 0.5;
+  height: auto;
+}/*# sourceMappingURL=home.css.map */
