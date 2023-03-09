@@ -241,4 +241,16 @@ input:-webkit-autofill:active {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.container {
+  padding: 0 100px;
+}
+
+.text-size-20 {
+  font-size: 20px;
+}
+
+.text-size-72 {
+  font-size: 72px;
 }/*# sourceMappingURL=main.css.map */
