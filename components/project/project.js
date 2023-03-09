@@ -1,9 +1,7 @@
-const button = document.querySelector('.project__button');
+const buttons = document.querySelectorAll('.button--active');
 
-button.addEventListener('click', function() {
-  if (button.classList.contains('button--active')) {
-    button.classList.remove('button--active');
-  } else {
-    button.classList.add('button--active');
-  }
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    button.classList.toggle('button--active');
+  });
 });

@@ -39,9 +39,12 @@
   width: 200px;
   padding: 10px;
   margin: 20px;
+  border: 5px solid #37806B;
+  background-color: #ffffff;
+  color: #37806B;
 }
 
 .project__button.button--active {
-  background-color: #ffffff;
-  color: #37806B;
+  background-color: #37806B;
+  color: #ffffff;
 }/*# sourceMappingURL=button.css.map */

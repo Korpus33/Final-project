@@ -1,4 +1,39 @@
-.project__buttons {
+.project__card {
+    display: flex;
+}
 
+.project__card_design {
+    width: auto;
+    height: 150px;
+    display: flex;
+    border-radius: 60px 0px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+}
 
+.project__card_architecture {
+    width: auto;
+    height: 150px;
+    display: flex;
+    border-radius: 60px 0px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+    background-color: #CAA892;
+}
+
+.project__card_planning {
+    width: auto;
+    height: 150px;
+    display: flex;
+    border-radius: 60px 0px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+}
+
+.size--normal {
+    width: auto;
+    height: 45px;
+}
+
+.project__card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
