@@ -1,5 +1,6 @@
 .project__card {
     display: flex;
+    gap: 20px;
 }
 
 .project__card_design {
@@ -27,9 +28,10 @@
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
 }
 
-.size--normal {
+.project__card_image {
     width: auto;
     height: 45px;
+    margin: 33px 40px;
 }
 
 .project__card_text {

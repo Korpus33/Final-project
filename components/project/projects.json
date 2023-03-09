@@ -1,0 +1,67 @@
+{"projects":[
+    {
+      "title": "Interior Design1",
+      "category": "design",
+      "img": "images/sr.svg",
+      "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+      "link": "#project-1"
+    },
+    {
+        "title": "Interior Design2",
+        "category": "design",
+        "img": "images/sr.svg",
+        "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+        "link": "#project-1"
+    },
+    {
+        "title": "Interior Design3",
+        "category": "design",
+        "img": "images/sr.svg",
+        "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+        "link": "#project-1"
+    },
+    {
+        "title": "Arhitecture1",
+        "category": "arhitecture",
+        "img": "images/ere.svg",
+        "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+        "link": "#project-2"
+    },
+    {
+        "title": "Arhitecture2",
+        "category": "arhitecture",
+        "img": "images/ere.svg",
+        "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+        "link": "#project-2"
+    },
+    {
+        "title": "Arhitecture3",
+        "category": "arhitecture",
+        "img": "images/ere.svg",
+        "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+        "link": "#project-2"
+    },
+    {
+        "title": "Planning1",
+        "category": "planning",
+        "img": "images/sd.svg",
+        "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+        "link": "#project-3"
+    },
+    {
+        "title": "Planning2",
+        "category": "planning",
+        "img": "images/sd.svg",
+        "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+        "link": "#project-3"
+    },
+    {
+        "title": "Planning3",
+        "category": "planning",
+        "img": "images/sd.svg",
+        "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+        "link": "#project-3"
+    }
+  ]
+}
+  

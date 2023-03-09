@@ -6,10 +6,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 .home__text {
+  padding: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
