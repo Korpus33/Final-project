@@ -266,14 +266,15 @@ input:-webkit-autofill:active {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 500px 0;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-top: 200px;
+  padding-top: 200px;
   gap: 10px;
 }
-
 .about__image {
   position: relative;
+  margin: 100px 0;
 }
 
 .about__image_main {
@@ -289,6 +290,12 @@ input:-webkit-autofill:active {
   z-index: -1;
   opacity: 0.5;
   height: auto;
+}
+
+.about__image_dots {
+  position: absolute;
+  top: 830px;
+  left: -30px;
 }
 
 .about__text {
@@ -336,6 +343,10 @@ input:-webkit-autofill:active {
 .position {
   top: 30px;
   left: 30px;
+}
+
+.about__image_hidden {
+  width: 500px;
 }
 
 .project {
