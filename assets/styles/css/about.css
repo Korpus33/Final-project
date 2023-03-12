@@ -16,13 +16,11 @@
   position: relative;
   margin: 100px 0;
 }
-
 .about__image_main {
   border-radius: 140px 0px;
   display: block;
   height: auto;
 }
-
 .about__image_overlay {
   position: absolute;
   top: -30px;
@@ -31,13 +29,11 @@
   opacity: 0.5;
   height: auto;
 }
-
 .about__image_dots {
   position: absolute;
   top: 830px;
   left: -30px;
 }
-
 .about__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,7 +48,6 @@
   padding: 40px;
   width: 500px;
 }
-
 .about__text_tagline {
   font-family: "Poppins";
   font-style: normal;
@@ -61,7 +56,6 @@
   line-height: 30px;
   color: #646464;
 }
-
 .about__text_heading {
   font-family: "Poppins";
   font-style: normal;
@@ -70,7 +64,6 @@
   line-height: 57px;
   color: #212121;
 }
-
 .about__text_description {
   font-family: "Open Sans";
   font-style: normal;
@@ -83,8 +76,4 @@
 .position {
   top: 30px;
   left: 30px;
-}
-
-.about__image_hidden {
-  width: 500px;
 }/*# sourceMappingURL=about.css.map */

@@ -276,13 +276,11 @@ input:-webkit-autofill:active {
   position: relative;
   margin: 100px 0;
 }
-
 .about__image_main {
   border-radius: 140px 0px;
   display: block;
   height: auto;
 }
-
 .about__image_overlay {
   position: absolute;
   top: -30px;
@@ -291,13 +289,11 @@ input:-webkit-autofill:active {
   opacity: 0.5;
   height: auto;
 }
-
 .about__image_dots {
   position: absolute;
   top: 830px;
   left: -30px;
 }
-
 .about__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -312,7 +308,6 @@ input:-webkit-autofill:active {
   padding: 40px;
   width: 500px;
 }
-
 .about__text_tagline {
   font-family: "Poppins";
   font-style: normal;
@@ -321,7 +316,6 @@ input:-webkit-autofill:active {
   line-height: 30px;
   color: #646464;
 }
-
 .about__text_heading {
   font-family: "Poppins";
   font-style: normal;
@@ -330,7 +324,6 @@ input:-webkit-autofill:active {
   line-height: 57px;
   color: #212121;
 }
-
 .about__text_description {
   font-family: "Open Sans";
   font-style: normal;
@@ -345,22 +338,16 @@ input:-webkit-autofill:active {
   left: 30px;
 }
 
-.about__image_hidden {
-  width: 500px;
-}
-
 .project {
   padding: 100px 0;
   position: relative;
 }
-
 .project__card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
-
 .project__card_design {
   width: auto;
   height: 150px;
@@ -371,7 +358,6 @@ input:-webkit-autofill:active {
   -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
           box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
 }
-
 .project__card_architecture {
   width: auto;
   height: 150px;
@@ -383,7 +369,6 @@ input:-webkit-autofill:active {
           box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
   background-color: #CAA892;
 }
-
 .project__card_planning {
   width: auto;
   height: 150px;
@@ -394,13 +379,11 @@ input:-webkit-autofill:active {
   -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
           box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
 }
-
 .project__card_image {
   width: auto;
   height: 45px;
   margin: 33px 40px;
 }
-
 .project__card_text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -413,7 +396,6 @@ input:-webkit-autofill:active {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .project__text_tagline {
   font-family: "Poppins";
   font-style: normal;
@@ -423,7 +405,6 @@ input:-webkit-autofill:active {
   letter-spacing: -0.01em;
   color: #646464;
 }
-
 .project__text_description {
   font-family: "Poppins";
   font-style: normal;
@@ -432,7 +413,6 @@ input:-webkit-autofill:active {
   line-height: 78px;
   color: #212121;
 }
-
 .project__image_dots {
   position: absolute;
   top: 500px;
@@ -440,16 +420,4 @@ input:-webkit-autofill:active {
   z-index: -1;
   opacity: 0.5;
   height: auto;
-}
-
-.container {
-  padding: 20px 100px;
-}
-
-.text-size-20 {
-  font-size: 20px;
-}
-
-.text-size-72 {
-  font-size: 72px;
 }/*# sourceMappingURL=main.css.map */
