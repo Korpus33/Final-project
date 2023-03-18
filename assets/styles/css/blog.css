@@ -1,0 +1,48 @@
+.blog__carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blog__carousel-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.blog__carousel-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(50% - 10px);
+          flex: 0 0 calc(50% - 10px);
+  margin-right: 10px;
+  text-align: center;
+}
+
+.blog__carousel-button {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.blog__carousel-button-prev {
+  right: 70px;
+  top: 10px;
+}
+
+.blog__carousel-button-next {
+  right: 10px;
+  top: 10px;
+}/*# sourceMappingURL=blog.css.map */
